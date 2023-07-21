@@ -22,10 +22,10 @@ For data preprocessing, the following steps are done in order:
 ## Net
 The network uses an [Embedding](https://pytorch.org/docs/stable/generated/torch.nn.Embedding.html) layer, two bidirectional [LSTM](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html) layers and a [fully connected(linear)](https://pytorch.org/docs/stable/generated/torch.nn.Linear.html#torch.nn.Linear) layer for calculating the output probability.
 
-## Results (using Google Colab)
+## Results
 | Train Acc.      | Validation Acc. | Test Acc.  | Test loss. |
 | :-------------: | :-------------: | :--------: | :--------: |
-|      0.66       |      0.65       |    0.66    |    0.63
+|      0.77       |      0.76       |    0.76    |    0.49
 
 
 ## Setup & instructions
