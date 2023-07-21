@@ -5,7 +5,7 @@
 ## Dataset
 This is the [sentiment140](http://help.sentiment140.com/for-students) dataset. It contains 1,600,000 tweets extracted using the twitter api . The tweets have been annotated (0 = negative, 4 = positive) and they can be used to detect sentiment .
 
-#### Preprocessing
+## Preprocessing
 For data preprocessing, the following steps are done in order:
 - Convert text to lowercase
 - Remove User Handle
@@ -16,7 +16,7 @@ For data preprocessing, the following steps are done in order:
 - Lemmatize Words with [NLTK](https://www.nltk.org/)
 - Remove Stop Words
 
-### Word Embeddings
+## Word Embeddings
 [GloVe embeddings](https://nlp.stanford.edu/projects/glove/) with embedding_dim=300 is used for vector representations for words.
 
 ## Net
